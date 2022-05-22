@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.top-header{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-links{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.Logo{
+    margin-left: 100px;
+}
+.vyach-mac {
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+    background-color: #1f2937;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.media.flipped {
+    flex-direction: row-reverse;
+}
+.media .content {
+    flex: 1;
+    padding: 10px;
+}
+
+.content {
+    margin-left: 100px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.header-button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 10px;
+    border: none;
+}
