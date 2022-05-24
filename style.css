@@ -68,17 +68,24 @@ ul {
 }
 
 .header-button {
-    background-color: #3882f6;
+    background-color: #1f2937;
     color: #e5e7eb;
     display: flex;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-weight: bold;
     border-radius: 7px;
-    margin-top: 10px;
-    border: none;
+    margin-top: 20px;
+    border:  2px solid #3882f6;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.header-button:hover {
+    background-color: #3882f6;
 }
 
 .info-header {
@@ -118,4 +125,10 @@ ul {
 .subtext {
     font-size: 18px;
     color: #4B5563;
+}
+
+
+.Sunflower{
+    height: 60px;
+    border-radius: 100px;
 }
